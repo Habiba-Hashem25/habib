@@ -1,0 +1,50 @@
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url();
+    background-position: center;
+    background-size: cover;
+}
+.container
+{
+    width: 360px;
+    height: 450px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+.container form 
+{
+    width: 280px;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+.progress
+{
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+.btn
+{
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+}
+#Form2,#Form3,#Form4 {
+    display: none;
+}
+
+.btn1
+{
+     display: inline-block;
+margin-top: 40px;
+margin-left:10px ;
+padding: 5px 40px;
+text-align: center;
+border: #fff;
+border-radius: 5px;
+
+}
